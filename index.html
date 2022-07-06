@@ -1,0 +1,49 @@
+<html>
+
+    <head>
+        <title>Nayan Patel portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="web.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    </head>
+        <body id="bod">
+            <header>
+                
+                <nav id='nav' style="float:right;">
+                   
+                    <button class="toggle" id="toggle" >
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    
+                    <ul>
+                        
+                        <li><a href="#about me" >About me</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#">Contact info</a></li>
+                    </ul>
+                </nav>
+            
+            </header>
+            <br>
+            <div id="toblur">
+            <header id="about me" class='section'>
+              <h2>Nayan Patel</h2> 
+                <p> I am currently in my first year at the university of nottingham studying Bsc Computer science.<br>
+                    My favourite programming language is Java however I have started to learn C++</p>
+             
+            </header>
+            </div>
+           <script>
+            const nav=document.getElementById('nav');
+const tog=document.getElementById('toggle');
+const blur=document.getElementById('toblur');
+tog.addEventListener('click',()=>{
+  nav.classList.toggle('active');
+   blur.classList.toggle('blur');
+});
+           </script>
+        
+        </body>
+
+
+</html>
