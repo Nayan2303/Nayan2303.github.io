@@ -8,59 +8,37 @@
         <link rel="stylesheet" href="web.css" />
         <script src="https://kit.fontawesome.com/ec718aeb79.js" crossorigin="anonymous"></script> 
     </head>
-        <body overflow-x:hidden >
-            
-            <!-- <header>
-               
-                <nav id='nav' style="float:right;">
-                   
-                    <button class="toggle" id="toggle" >
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    
-                    <ul>
-                        
-                        <li><a href="#about me" >About me</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">Contact info</a></li>
+        <body onload="document.body.style.opacity='1'" >
+          <header id="header">
+            <nav id="nav">
+                <div class="menu-container">
+                    <a href="index.html" id="home"><i class="fas fa-home fa-2x"></i></a>
+                    <ul id="links">
+                        <a href="#projects"><span><i class="fas fa-code"></i>Projects</span></a>
+                        <a href="#contact"><i class="fa-solid fa-envelope-open"></i>Contact</a>
                     </ul>
-                </nav>
+                </div>
+            </nav>
+            <div class="about">
+               
+                <p> <h1>Nayan Patel<br></h1>I am a first year student at the University of Nottingham studying computer science
+                    I am interested in cyber security and software engineering. My favourite language is Java however I also code in C++.
+                </p>
             
-            </header> -->
-            <div class="topnav">
-                <a class="active" href="#about me">About me</a>
-                <a  href="#">Projects</a>
-                <a  href="#end">Contact</a>
-                <a href="index.html"><i class="fas fa-home"></i></a>
+            <div class="social">
+                <ul>
+                    <a href="https://www.linkedin.com/in/nayan-patel-9a1361220/"><i class="fa-brands fa-linkedin fa-5x"></i></a>
+                </ul>
             </div>
-        
-            <br>
-            <div id="toblur">
-            <header id="aboutme" class='section'>
-              <h2>Nayan Patel</h2> 
-                <p> I am currently in my first year at the university of nottingham studying Bsc Computer science.<br>
-                    I am interested in cyber security however I have also gained an interest in software engineering.<br>
-                    My favourite programming language is Java however I have started to learn C++</p>
-             
-            </header>
-            <div id="projects">
-                <section>
-                    <article ><a href="https://github.com/Nayan2303/Java_Projects" class="java"><img src="assets/icons8-java.gif" ></a></article>
-                    <article class="cpp"><a href="#"><img src="assets/c++.jpg" style="width:auto;height: auto;"></a></article>
-                </section>
-
-            </div>
-            <fotter id="end">
-
-            </fotter>
-            </div>
-           <script>
-     var siteWidth = 1280;
-var scale = screen.width /siteWidth;
-
-document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
-           </script>
-        <a target="_blank" href="https://icons8.com/icon/GPfHz0SM85FX/java">Java</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+        </div>
+          </header>
+          <div id="skills">
+            <p><h1>My skills</h1></p>
+            <ul class="skills">
+                <li><img src="assets/icons8-java.gif"><br><span><a href=#>Java</span></a></li>
+                <li><img src="assets/c++.jpg"><br><span><a href=#>C++</span></a></li>
+            </ul>
+          </div>
         </body>
 
 
