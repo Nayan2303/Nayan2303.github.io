@@ -1,16 +1,18 @@
 header{
     background-size: cover;
     min-height: 80vh;
-    position: relative;
+    
     display: block;
+
 }
 header .about {
     z-index: 5;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: antiquewhite;
+    
 }
 body{
     padding: 0;
@@ -93,6 +95,8 @@ a #home{
 }
 #nav{
     background-color: black;
+    line-height: 1.5;;
+    position:relative;
 }
 
 #home{
