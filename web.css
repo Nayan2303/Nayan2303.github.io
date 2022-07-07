@@ -20,7 +20,7 @@ section{
 }
 
 .topnav{
-    overflow: hidden;
+    overflow:visible;
     background-color: #333;
     height:150px;
     line-height: 150px;
