@@ -12,6 +12,7 @@ body{
 div #toblur{
    height:300px; 
    overflow: scroll;
+   
 }
   
 section{
@@ -38,6 +39,7 @@ section{
   align-items: center; 
     position: relative;
     font-size:larger;
+    
     
 }
 
@@ -89,9 +91,26 @@ div p{
     text-align: center;
 }
 article{
+    
+    float: left;
+}
+.section h2{
+    line-height: 200px;
+    align-self: auto;
+}
+section{
+    display: flex;
     align-self: center;
 }
-
+article {
+   
+   transform: translateX(200%);
+    margin-left: 50px;
+    font-size: 16px
+  }
+  img {
+    border: 5px solid #555;
+  }
 
   
  
