@@ -3,11 +3,12 @@
     <head>
         <title>Nayan Patel portfolio</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!-- /*<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />*/ -->
+        <meta name="viewport" content="width=1280, initial-scale=1">
         <link rel="stylesheet" href="web.css" />
         <script src="https://kit.fontawesome.com/ec718aeb79.js" crossorigin="anonymous"></script> 
     </head>
-        <body >
+        <body overflow-x:hidden >
             
             <!-- <header>
                
@@ -53,15 +54,12 @@
 
             </fotter>
             </div>
-           <!-- <script>
-            const nav=document.getElementById('nav');
-const tog=document.getElementById('toggle');
-const blur=document.getElementById('toblur');
-tog.addEventListener('click',()=>{
-  nav.classList.toggle('active');
-   blur.classList.toggle('blur');
-});
-           </script> -->
+           <script>
+     var siteWidth = 1280;
+var scale = screen.width /siteWidth;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', 'width='+siteWidth+', initial-scale='+scale+'');
+           </script>
         
         </body>
 
