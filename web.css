@@ -47,10 +47,10 @@ a, a:visited,a:active {
     transition:0.4s;
   }
 
-i,i:active{
+.social i,i:active{
     transition: 0.4s;
 }
-i:hover{
+.social i:hover{
     transform: scale(1.3);    
     transition:0.4s;
 }
