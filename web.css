@@ -5,7 +5,6 @@ body{
     color:rgb(10, 28, 45);
     font-family: sans-serif;
     align-self: center;
-  
 
     
 }
@@ -25,8 +24,7 @@ section{
     background-color: #333;
     height:150px;
     line-height: 150px;
-    
- 
+   
 }
 .topnav a{
     display: inline-block;
