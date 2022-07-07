@@ -92,7 +92,7 @@ a #home{
 }
 #nav{
     background-color: black;
-    
+    scroll-behavior: [ smooth ];
 }
 
 #home{
@@ -100,4 +100,7 @@ a #home{
         
         left:5px;
         line-height: inherit;
+}
+html{
+    scroll-behavior: smooth
 }
