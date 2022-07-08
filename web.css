@@ -146,7 +146,8 @@ a #home{
         line-height: inherit;
 }
 html{
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    
 }
 ul.skills li:hover{
     transform: scale(1.1);    
