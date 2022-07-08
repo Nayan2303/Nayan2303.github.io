@@ -20,8 +20,9 @@ header .about {
 }
 
 div.about p{
-    font-size: large;
+    font-size:x-large;
     border-bottom: black;
+
 }
 body{
     padding: 0;
@@ -151,21 +152,37 @@ ul.skills li:hover{
     transform: scale(1.1);    
     transition:0.4s;
 }
+ul.skills{
+    flex-wrap: wrap;
+}
 ul.skills li{
    /* border-style: solid;
     border-color: rgb(0, 0, 0); */
     margin-top: 05%;
+    flex: 1 0 21%;
+    flex-direction: column;
+    justify-content: center;
     transition: 0.4s;
     color: white;
     text-decoration: none;
 }
-@media (max-width: 900px) {
+@media (max-width: 600px) {
     div.menu-container {
         display: none !important;
     }
+    ul.skills li, .social ul li{
+    margin: 1rem 0.75rem;}
+    .skills img,.social a i{
+        font-size: 70px;
+    width: 70px;
+    height:70px;
+    line-height: 1.5;
+    }
+    
+    
   }
   
-  @media (min-width: 1000px) {
+  @media (min-width: 601px) {
     .mobile {
       display: none;
     }
@@ -186,7 +203,9 @@ ul.skills li{
     transition:0.4s;
     transition: 0.4s;
   }
- 
+ .mobile p{
+    color: white;
+ }
 
  
 
