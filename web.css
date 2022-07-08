@@ -71,6 +71,7 @@ ul.skills{
 a, a:visited,a:active {
     color: inherit;
     transition:0.4s;
+    text-decoration: none;
   }
 
 .social i,i:active{
@@ -151,10 +152,12 @@ ul.skills li:hover{
     transition:0.4s;
 }
 ul.skills li{
-   border-style: solid;
-    border-color: rgb(0, 0, 0);
+   /* border-style: solid;
+    border-color: rgb(0, 0, 0); */
     margin-top: 05%;
     transition: 0.4s;
+    color: white;
+    text-decoration: none;
 }
 @media (max-width: 900px) {
     div.menu-container {
