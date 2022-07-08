@@ -43,11 +43,16 @@ body{
 div#skills{
     display: block;
     border-color: black;
+    margin-top: 20%;
    
+}
+div#skills {
+    top:100%;
 }
 div#skills h1{
     text-decoration: underline;
     color: antiquewhite;
+    margin: 10%;
 }
 .mobile p{
 
@@ -76,7 +81,7 @@ a, a:visited,a:active {
   }
 
 .social i,i:active{
-    
+    margin-bottom: 10px;
     margin-left: 4%;
     transition: 0.4s;
 }
@@ -91,6 +96,7 @@ a, a:visited,a:active {
   left: 0;
 }
 .social{
+   
     margin-top: 10%;
 }
 nav div.menu-container{
@@ -174,10 +180,13 @@ ul.skills li{
     ul.skills li, .social ul li{
     margin: 1rem 0.75rem;}
     .skills img,.social a i{
-        font-size: 70px;
-    width: 70px;
-    height:70px;
-    line-height: 1.5;
+        font-size: 70px !important;
+    width: 70px !important;
+    height:70px !important;
+    line-height: 1.5 !important;
+    }
+    .about p, .social ul a{
+        font-size: medium!important;
     }
     
     
@@ -185,13 +194,10 @@ ul.skills li{
   
   @media (min-width: 601px) {
     .mobile {
-      display: none;
+      display: none !important;
     }
   }
-  form{
-    font-size:x-large;
-    display: flex;
-  }
+  
    
   #contact a{
    
