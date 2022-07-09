@@ -38,12 +38,15 @@ body{
     animation: animate 10s infinite alternate;
     opacity: 0;
     transition: opacity 2s;
+    
+    
 }
 
 div#skills{
     display: block;
     border-color: black;
     /* margin-top: 20%; */
+    
    
 }
 
@@ -159,6 +162,7 @@ ul.skills li:hover{
 }
 ul.skills{
     flex-wrap: wrap;
+    content-visibility: auto;
 }
 ul.skills li{
    /* border-style: solid;
