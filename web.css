@@ -1,7 +1,7 @@
 /* made by Nayan Patel 2022*/
 header{
     background-size: cover;
-    min-height: 80vh;
+    min-height: 75vh;
     
     display: block;
     
@@ -50,7 +50,7 @@ div#skills{
 div#skills h1{
     text-decoration: underline;
     color: antiquewhite;
-    margin: 10%;
+    margin-top: 10%;
 }
 .mobile p{
 
