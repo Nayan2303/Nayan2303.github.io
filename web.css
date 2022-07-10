@@ -35,7 +35,10 @@ body{
     background:linear-gradient(-45deg,#9c11e1,#f27b31);
     background-size: 200% 200%;
     /* height: 100vh; */
-    animation: animate 10s infinite alternate;
+    -webkit-animation: animate 5s ease infinite;
+    -moz-animation: animate 5s ease infinite;
+    
+    animation: animate 5s infinite alternate;
     opacity: 0;
     transition: opacity 2s;
     
@@ -223,15 +226,20 @@ ul.skills li{
 
 @keyframes animate {
 
-    0%{
-       background-position: 0%;
-    }
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 
-  
-    100%{
-        background-position: 100%;
-    }
-
+}
+@-webkit-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
+}
+@-moz-keyframes Animation {
+    0%{background-position:10% 0%}
+    50%{background-position:91% 100%}
+    100%{background-position:10% 0%}
 }
 
   
