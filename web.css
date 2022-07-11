@@ -38,10 +38,10 @@ body{
     /* background: rgb(2,0,36); */
     /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
     background-image:linear-gradient(-45deg,#9c11e1,#f27b31);
-    background-size:100%,100%;
-    /* height: 100vh; */
-    /* -webkit-animation: animate 10s ease infinite ;
-    -moz-animation: animate 10s ease infinite ; */
+    background-size:400% 400%;
+    height: 100vh;
+    -webkit-animation: animate 10s ease infinite ;
+    -moz-animation: animate 10s ease infinite ;
     will-change: animate;
     animation: animate 15s  ease infinite ;
     opacity: 0;
@@ -238,14 +238,14 @@ ul.skills li{
 
 }
 @-webkit-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 @-moz-keyframes Animation {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
 
   
