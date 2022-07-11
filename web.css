@@ -27,7 +27,7 @@ div.about p{
 }
 body{
    padding: 0; 
-    backface-visibility: hidden;
+    /* backface-visibility: hidden; */
     line-height: 1.5;
     text-align: center;
     text-decoration: solid; 
@@ -38,7 +38,7 @@ body{
     
     height: 100vh;
     
-    
+    transform:translate3d(0,0,0);
     animation: animate 15s  ease infinite ;
     /* opacity: 0;
     transition: opacity 2s;
@@ -161,7 +161,7 @@ a #home{
 }
 html{
     scroll-behavior: smooth;
-    -webkit-transform:translate3d(0,0,0);
+   
     
 }
 
