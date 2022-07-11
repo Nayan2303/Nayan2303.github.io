@@ -46,7 +46,7 @@ body{
     animation: animate 15s  ease infinite ;
     opacity: 0;
     transition: opacity 2s;
-    -webkit-perspective: 1000;
+    
 -webkit-backface-visibility: hidden;
 -moz-backface-visibility: hidden;
     
