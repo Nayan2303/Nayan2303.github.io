@@ -41,6 +41,9 @@ body{
     
    
     animation: animate 15s  ease infinite ;
+    overflow-x: hidden;
+overflow-y: scroll;
+-webkit-overflow-scrolling: touch;
     /* opacity: 0;
     transition: opacity 2s;
     
