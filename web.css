@@ -26,8 +26,9 @@ div.about p{
 
 }
 body{
+    display: block;
    padding: 0; 
-    backface-visibility: hidden;
+   
     line-height: 1.5;
     text-align: center;
     text-decoration: solid; 
