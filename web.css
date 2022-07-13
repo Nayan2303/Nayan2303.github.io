@@ -40,7 +40,7 @@ body{
     height: 100vh;
     
    
-    animation: animate 15s  ease infinite ;
+    /* animation: animate 15s  ease infinite ; */
     overflow-x: hidden;
 overflow-y: scroll;
 -webkit-overflow-scrolling: touch;
@@ -236,7 +236,7 @@ ul.skills li{
 
 @keyframes animate {
 
-    0%{background-position:0% 50%}
+    0%{transform: translateX(-50%);}
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 
