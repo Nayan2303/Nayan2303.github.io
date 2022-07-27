@@ -32,12 +32,12 @@ body{
     line-height: 1.5;
     text-align: center;
     text-decoration: solid; 
-    /* background: rgb(2,0,36); */
-    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
-    background-image:linear-gradient(-45deg,#9c11e1,#f27b31);
-    background-size:400% 400%;
+   
+    background-image:linear-gradient(-45deg,#f27b31,#5f0bf1);
+    
     overflow:scroll;
-    height: 100vh;
+    width: 100vw;
+    height: 100%;
     
    
     /* animation: animate 15s  ease infinite ; */
